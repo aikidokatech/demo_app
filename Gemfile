@@ -37,3 +37,8 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug'
+
+group :production do
+  # Heroku specific gems
+  gem "pg"
+end
